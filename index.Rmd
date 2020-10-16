@@ -36,54 +36,155 @@ Aquí viene el texto explicativo.
 
 Seguido por la lista de opciones para descargar:
 
-1. Datos 1
+<br>
+1. Distritos
+
+[<img src="input/descarga_mapa.png" width= 14.8%  align = "left" />](https://github.com/alternativas-bolivia/mapas_palca/tree/main/02.%20Palca)
+<br><br>
 
 ```{r }
 
 
-list(mtcars, iris) %>%
+rio::import("output/excel/palca/distritos.xlsx") %>%
   download_this(
-    output_name = "mtcars and iris datasets",
+    output_name = "distritos",
     output_extension = ".xlsx",
-    button_label = "Download datasets as xlsx",
-    button_type = "warning",
+    button_label = "Descargar datos como xlsx",
+    button_type = "primary",
     has_icon = TRUE,
     icon = "fa fa-save"
   )
 ```
 
-2. Datos 2
+<br>
+2. Mercados Destino
+
+
+[<img src="input/descarga_mapa.png" width= 14.8%  align = "left" />](https://github.com/alternativas-bolivia/mapas_palca/tree/main/02.%20Palca)
+<br><br>
 
 ```{r }
 
 
-list(mtcars, iris) %>%
+rio::import("output/excel/palca/mercados_destino.xlsx") %>%
   download_this(
-    output_name = "mtcars and iris datasets",
+    output_name = "mercados_destino",
     output_extension = ".xlsx",
-    button_label = "Download datasets as xlsx",
-    button_type = "warning",
+    button_label = "Descargar datos como xlsx",
+    button_type = "primary",
     has_icon = TRUE,
     icon = "fa fa-save"
   )
 ```
 
-3. Datos 3
+<br>
+3. Mercados
+
+
+[<img src="input/descarga_mapa.png" width= 14.8%  align = "left" />](https://github.com/alternativas-bolivia/mapas_palca/tree/main/02.%20Palca)
+<br><br>
+
 
 ```{r }
 
 
-list(mtcars, iris) %>%
+rio::import("output/excel/palca/mercados.xlsx") %>%
   download_this(
-    output_name = "mtcars and iris datasets",
+    output_name = "pm_moviles",
     output_extension = ".xlsx",
-    button_label = "Download datasets as xlsx",
-    button_type = "warning",
+    button_label = "Descargar datos como xlsx",
+    button_type = "primary",
     has_icon = TRUE,
     icon = "fa fa-save"
   )
 ```
 
+<br>
+4. Pobreza Extrema
+
+
+[<img src="input/descarga_mapa.png" width= 14.8%  align = "left" />](https://github.com/alternativas-bolivia/mapas_palca/tree/main/02.%20Palca)
+<br><br>
+
+
+```{r }
+
+
+rio::import("output/excel/palca/pobreza_extrema.xlsx") %>%
+  download_this(
+    output_name = "pobreza_extrema",
+    output_extension = ".xlsx",
+    button_label = "Descargar datos como xlsx",
+    button_type = "primary",
+    has_icon = TRUE,
+    icon = "fa fa-save"
+  )
+```
+
+<br>
+5. Rubros
+
+
+[<img src="input/descarga_mapa.png" width= 14.8%  align = "left" />](https://github.com/alternativas-bolivia/mapas_palca/tree/main/02.%20Palca)
+<br><br>
+
+```{r }
+
+
+rio::import("output/excel/palca/rubros.xlsx") %>%
+  download_this(
+    output_name = "rubros",
+    output_extension = ".xlsx",
+    button_label = "Descargar datos como xlsx",
+    button_type = "primary",
+    has_icon = TRUE,
+    icon = "fa fa-save"
+  )
+```
+
+<br>
+6. Sectores
+
+
+[<img src="input/descarga_mapa.png" width= 14.8%  align = "left" />](https://github.com/alternativas-bolivia/mapas_palca/tree/main/02.%20Palca)
+<br><br>
+
+
+```{r }
+
+
+rio::import("output/excel/palca/sectores.xlsx") %>%
+  download_this(
+    output_name = "sectores",
+    output_extension = ".xlsx",
+    button_label = "Descargar datos como xlsx",
+    button_type = "primary",
+    has_icon = TRUE,
+    icon = "fa fa-save"
+  )
+```
+
+<br>
+7. Rutase de Acceso
+
+
+[<img src="input/descarga_mapa.png" width= 14.8%  align = "left" />](https://github.com/alternativas-bolivia/mapas_palca/tree/main/02.%20Palca)
+<br><br>
+
+
+```{r }
+
+
+rio::import("output/excel/palca/rutas.xlsx") %>%
+  download_this(
+    output_name = "rutas_acceso",
+    output_extension = ".xlsx",
+    button_label = "Descargar datos como xlsx",
+    button_type = "primary",
+    has_icon = TRUE,
+    icon = "fa fa-save"
+  )
+```
 
 Descripción Proyecto
 ===================================== 
